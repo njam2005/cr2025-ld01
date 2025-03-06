@@ -11,7 +11,8 @@ public class MethodObject {
             return new GammaLogic(this, inputVal, quantity, yearToDate).compute();
         }
     }
-
+    
+    // a
     class GammaLogic {
         private final Account account;
         private final int inputVal;
